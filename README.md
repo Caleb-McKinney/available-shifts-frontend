@@ -1,3 +1,9 @@
+# Available shift app - frontend
+**Author**: Caleb McKinney
+
+This app notifies employees of open shifts and gives them the opportunity to sign up to work for that shift.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
