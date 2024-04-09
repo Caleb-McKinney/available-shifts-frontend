@@ -67,7 +67,7 @@ export default function Home() {
       </div>
       <div className="p-5 border w-50 border-cyan-600 w-full flex-col items-center justify-between ">
         <h2 className="text-2xl text-cyan-200">Shifts</h2>
-        <hr className="border-cyan-600 mb-4"></hr>
+        <hr className="border-marigold mb-4"></hr>
         {projects.map((project) => {
           return (
             <div key={project.projectid}>

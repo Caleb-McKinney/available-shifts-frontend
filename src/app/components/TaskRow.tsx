@@ -19,7 +19,7 @@ const TaskRow: React.FC<TaskRowProps> = ({ task, onUpdate }) => {
   };
 
   return (
-    <tr className="text-cyan-800 hover:bg-cyan-100 w-full ">
+    <tr className="text-cyan-800 hover:bg-yellow-100 w-full ">
       <td className="p-2">
         {isEditing ? (
           <input
@@ -92,7 +92,7 @@ const TaskRow: React.FC<TaskRowProps> = ({ task, onUpdate }) => {
       </td>
       <td className="p-2">
         <button
-          className="px-4 py-2 rounded bg-cyan-500 text-white hover:bg-cyan-600 transition-colors"
+          className="px-4 py-2 rounded bg-blue-500 text-white hover:bg-yellow-600 transition-colors"
           onClick={toggleEdit}
         >
           {isEditing ? "Save" : "Edit"}

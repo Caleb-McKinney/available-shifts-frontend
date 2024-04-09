@@ -45,7 +45,7 @@ export default function ProjectPage({
       {project && (
         <div>
           <Project project={project} hideTasksButton={true} />
-          <div className="p-5 border w-50 border-cyan-600 w-full flex-col items-center justify-between ">
+          <div className="p-5 border w-50 border-yellow-600 w-full flex-col items-center justify-between ">
             <h2 className="text-2xl text-cyan-200">TASKS</h2>
             <hr className="border-cyan-600 mb-4"></hr>
             <Tasks projectId={params.projectID} />
