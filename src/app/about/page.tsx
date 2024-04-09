@@ -1,18 +1,12 @@
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
-  return {
+// @ts-ignore
+function page(props) {
+  return (
     <>
-    <header>
-    <nav>
-    <h1>Available Shifts App</h1>
-    </nav>
-    </header>
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <div>
-    <h2>Available Shifts</h2>
-    </div>
-    </main>
+      <h1>About the Add Shift App</h1>
     </>
-  };
+  );
 }
+
+export default page;

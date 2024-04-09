@@ -8,9 +8,9 @@ export default function Header() {
 
   return (
     <header>
-      <nav className="p-5 border border-yellow-600 flex justify-between items-center">
+      <nav className="p-5 border border-yellow-400 flex justify-between items-center">
         <Link href={"/"}>
-        <h1 className="text-3xl text-yellow-100">Add Shift App </h1>
+        <h1 className="text-3xl text-blue-700">Add Shift App </h1>
         </Link>
         <p className="text-yellow-100">HELLO, {username} </p>
       </nav>
