@@ -66,7 +66,7 @@ export default function Home() {
         />
       </div>
       <div className="p-5 border w-50 border-blue-700 w-full flex-col items-center justify-between ">
-        <h2 className="text-2xl text-yellow-400">Shifts</h2>
+        <h2 className="text-3xl text-yellow-400 text-center">Shifts</h2>
         <hr className="border-yellow mb-4"></hr>
         {projects.map((project) => {
           return (

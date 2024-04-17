@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       <nav className="p-5 border border-yellow-400 flex justify-between items-center">
         <Link href={"/"}>
-        <h1 className="text-3xl text-blue-700">Add Shift App </h1>
+        <h1 className="text-3xl text-blue-700 text-center">Available Shift </h1>
         </Link>
         <p className="text-yellow-100">HELLO, {username} </p>
       </nav>

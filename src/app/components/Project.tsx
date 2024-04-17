@@ -20,7 +20,7 @@ export default function Project({
       ) : (
         <Link
           href={"project/" + project.projectid}
-          className="border border-blue-400 text-yellow-400 px-12 py-1 hover:text-black-300 hover:bg-blue-700 rounded-md"
+          className="border border-blue-700 text-yellow-400 px-12 py-1 hover:text-black-300 hover:bg-blue-700 rounded-md"
         >
           VIEW TASKS
         </Link>
